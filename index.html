@@ -45,7 +45,29 @@
         color: #444;
       }
       #contact a:hover {
-        border-bottom: 1px solid #D96459;
+        color: #D96459;
+      }
+
+      .t-underline {
+        position: relative;
+      }
+      .t-underline:after {
+        display: block;
+        position: absolute;
+        left: 50%;
+        bottom: -1px;
+        width: 0;
+        height: 1px;
+        background-color: #D96459;
+        content: "";
+        transition: width 0.2s, left 0.2s;
+      }
+      .t-underline:hover {
+        color: #D96459;
+      }
+      .t-underline:hover:after {
+        width: 100%;
+        left: 0%;
       }
     </style>
   </head>
@@ -54,7 +76,7 @@
       <h1 id="name">Marcus Whybrow</h1>
       <p id="desc">remote, full stack web development and operations</p>
       <p id="contact">
-        <a href='ma&#105;&#108;t&#111;&#58;hi%&#55;2e&#64;ma%72cus&#46;co%6&#52;&#101;%73'>&#104;&#105;r&#101;&#64;&#109;a&#114;cus&#46;&#99;odes</a>
+        <a class="t-underline" href='ma&#105;&#108;t&#111;&#58;hi%&#55;2e&#64;ma%72cus&#46;co%6&#52;&#101;%73'>&#104;&#105;r&#101;&#64;&#109;a&#114;cus&#46;&#99;odes</a>
       </p>
     </div>
   </body>
