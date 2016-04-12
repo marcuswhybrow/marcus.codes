@@ -1,0 +1,115 @@
+body, html {
+  padding: 0; margin: 0;
+}
+
+.world {
+  width: 100%;
+  height: 100%;
+  background-color: gray;
+  position: absolute;
+  overflow: hidden;
+}
+
+.world .bg {
+  background-image: url('http://s3.marcus.codes/img/marcus-bg.jpg');
+  width: 2214px;
+  height: 1858px;
+
+  position: absolute;;
+  top: 50%;
+  left: 50%;
+  transform: translateX(-45%) translateY(-35%);
+  z-index: 100;
+}
+
+.world .frame {
+  width: 350px;
+  height: 400px;
+  /*background-color: grey;*/
+
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translateX(-160%) translateY(-90%);
+  z-index: 200;
+}
+
+#emblem {
+  width: 348px;
+  height: 365px;
+}
+
+#name {
+  font-family: 'Poiret One', cursive;
+  font-weight: normal;
+  font-size: 50px;
+  color: #588C7E;
+  margin: 0;
+  margin-bottom: 10px;
+
+  width: 500px;
+  text-align: center;
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+
+  text-transform: lowercase;
+}
+
+#desc {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 18px;
+  padding: 0;
+  margin: 0;
+  color: #aaa;
+  margin-bottom: 3px;
+
+  width: 500px;
+  text-align: center;
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+#contact {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 12px;
+  padding: 0;
+  margin: 0;
+  color: #8D948C;
+
+  width: 500px;
+  text-align: center;
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+}
+#contact a {
+  text-decoration: none;
+  color: #8D948C;
+}
+#contact a:hover {
+  color: #D96459;
+}
+
+.t-underline {
+  position: relative;
+}
+.t-underline:after {
+  display: block;
+  position: absolute;
+  left: 50%;
+  bottom: -1px;
+  width: 0;
+  height: 1px;
+  background-color: #D96459;
+  content: "";
+  transition: width 0.2s, left 0.2s;
+}
+.t-underline:hover {
+  color: #D96459;
+}
+.t-underline:hover:after {
+  width: 100%;
+  left: 0%;
+}
