@@ -8,6 +8,10 @@ body, html {
   background-color: gray;
   position: absolute;
   overflow: hidden;
+  
+  /* Keeps all text accessible */
+  min-width: 1300px;
+  min-height: 800px;
 }
 
 .world .bg {
