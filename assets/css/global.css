@@ -15,7 +15,7 @@ body, html {
 }
 
 .world .bg {
-  background-image: url('http://s3.marcus.codes/img/marcus-bg.jpg');
+  background-image: url('//s3-eu-west-1.amazonaws.com/s3.marcus.codes/img/marcus-bg.jpg');
   width: 2214px;
   height: 1858px;
 
