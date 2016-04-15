@@ -8,14 +8,14 @@ body, html {
   background-color: gray;
   position: absolute;
   overflow: hidden;
-  
+
   /* Keeps all text accessible */
   min-width: 1300px;
   min-height: 800px;
 }
 
 .world .bg {
-  background-image: url('//s3-eu-west-1.amazonaws.com/s3.marcus.codes/img/marcus-bg.jpg');
+  background-image: url('//s3.marcus.codes/img/marcus-bg.jpg');
   width: 2214px;
   height: 1858px;
 
@@ -59,7 +59,7 @@ body, html {
   text-align: center;
   position: relative;
   left: 50%;
-  -webkit-transform: translateX(-50%);  
+  -webkit-transform: translateX(-50%);
       -ms-transform: translateX(-50%);
           transform: translateX(-50%);
 
@@ -126,4 +126,20 @@ body, html {
 .t-underline:hover:after {
   width: 100%;
   left: 0%;
+}
+
+#cv {
+  background-image: url('//s3.marcus.codes/img/cv.png');
+  width: 236px;
+  height: 170px;
+  display: block;
+  /*margin-top: 20px;*/
+  margin: 50px auto 0;
+
+  opacity: 0.6;
+  transition: opactiy 0.2s;
+}
+
+#cv:hover {
+  opacity: 0.8;
 }
