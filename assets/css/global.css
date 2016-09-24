@@ -5,7 +5,7 @@ body, html {
 .world {
   width: 100%;
   height: 100%;
-  background-color: gray;
+  background-color: #8abfdb;
   position: absolute;
   overflow: hidden;
 
@@ -15,16 +15,16 @@ body, html {
 }
 
 .world .bg {
-  background-image: url('//s3.marcus.codes/img/marcus-bg.jpg');
-  width: 2214px;
-  height: 1858px;
+  background-image: url('//s3.marcus.codes/img/marcus-bg-mural.jpg');
+  width: 2741px;
+  height: 1739px;
 
-  position: absolute;;
+  position: absolute;
   top: 50%;
   left: 50%;
-  -webkit-transform: translateX(-45%) translateY(-35%);
-      -ms-transform: translateX(-45%) translateY(-35%);
-          transform: translateX(-45%) translateY(-35%);
+  -webkit-transform: translateX(-50%) translateY(-55%);
+      -ms-transform: translateX(-50%) translateY(-55%);
+          transform: translateX(-50%) translateY(-55%);
   z-index: 100;
 }
 
@@ -51,7 +51,7 @@ body, html {
   font-family: 'Poiret One', cursive;
   font-weight: normal;
   font-size: 50px;
-  color: #588C7E;
+  color: #1F0B16;
   margin: 0;
   margin-bottom: 10px;
 
@@ -71,7 +71,7 @@ body, html {
   font-size: 18px;
   padding: 0;
   margin: 0;
-  color: #aaa;
+  color: #555;
   margin-bottom: 3px;
 
   width: 500px;
@@ -100,10 +100,10 @@ body, html {
 }
 #contact a {
   text-decoration: none;
-  color: #8D948C;
+  color: #555;
 }
 #contact a:hover {
-  color: #D96459;
+  color: #AF2F2E;
 }
 
 .t-underline {
